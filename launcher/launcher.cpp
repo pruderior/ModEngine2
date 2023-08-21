@@ -34,7 +34,7 @@ enum LaunchTarget {
 
 static std::map<LaunchTarget, LaunchTargetParams> launch_targets {
     { DS3, { L"374320", L"Game/DarkSoulsIII.exe", L"config_darksouls3.toml" } },
-    { ELDEN_RING, { L"1245620", L"Game/eldenring.exe", L"config_eldenring.toml" } }
+    { ELDEN_RING, { L"1245620", L"Game/launch_elden_ring_seamlesscoop.exe", L"config_eldenring.toml" } }
 };
 
 static std::map<std::string, LaunchTarget> launch_target_names {
